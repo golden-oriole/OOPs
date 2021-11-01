@@ -1,0 +1,20 @@
+class test:
+    def __init_(self):
+        print("Get Ready")
+    def add(self):
+        return self.n1+self.n2
+    def mult(self):
+        return self.n1*self.n2
+    def selection(self):
+        if((int(self.answer)-self.n1-self.n2)==0):
+            print("correct")
+        else:
+            print("wrong")
+    def start(self):
+        import random
+        self.n1=random.randint(0,22)
+        self.n2=random.randint(0,22)
+        print("first number",self.n1)
+        print("second number",self.n2)
+        self.answer=input("Write the Sum:")
+        test.selection(self)
